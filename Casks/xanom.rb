@@ -1,13 +1,13 @@
 cask "xanom" do
-  version "1.1.2"
+  version "1.1.3"
 
   on_arm do
-    sha256 "4a069db721b5d2695cfe9d09d2fc079373a6531ef2f021ce12da0d78eb0a9cfa"
+    sha256 "e2b9fe96a16e1a1ecdd704a152bbbde1e4c472a3b58511c0713f718358367653"
     url "https://github.com/neel-xanom/xanom-releases/releases/download/v#{version}/Xanom_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "e91c77d141dbb1976b510089685fbea9a53ee7e9e8dd01494f71337ebd7f0f2a"
+    sha256 "f6b49d89a9e0dc08569031b6593bae03c72a2759955a81f47051c6e38912715d"
     url "https://github.com/neel-xanom/xanom-releases/releases/download/v#{version}/Xanom_#{version}_x64.dmg"
   end
 
